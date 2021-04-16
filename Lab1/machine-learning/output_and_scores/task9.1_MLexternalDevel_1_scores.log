@@ -1,0 +1,52 @@
+SCORES FOR THE GROUP: MLexternalDevel RUN=1
+
+Strict matching (boundaries + type)
+cor	inc	par	mis	spu	total	prec	recall	F1
+1390	152	0	229	41	1771	0.88	0.78	0.83
+
+
+
+Exact matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+1433	109	0	229	41	1771	0.91	0.81	0.85
+
+
+
+Partial matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+1433	0	109	229	41	1771	0.91	0.84	0.87
+
+
+
+type matching
+cor	inc	par	mis	spu	total	prec	recall	F1
+1469	73	0	229	41	1771	0.93	0.83	0.88
+
+
+
+SCORES FOR ENTITY TYPE
+Exact matching on drug
+cor	inc	par	mis	spu	total	prec	recall	F1
+911	22	0	112	26	1045	0.95	0.87	0.91
+
+
+Exact matching on brand
+cor	inc	par	mis	spu	total	prec	recall	F1
+135	15	0	30	0	180	0.9	0.75	0.82
+
+
+Exact matching on group
+cor	inc	par	mis	spu	total	prec	recall	F1
+324	46	0	84	19	454	0.83	0.71	0.77
+
+
+Exact matching on drug_n
+cor	inc	par	mis	spu	total	prec	recall	F1
+20	1	0	71	5	92	0.77	0.22	0.34
+
+
+MACRO-AVERAGE MEASURES:
+P	R	F1
+0.86	0.64	0.71
+________________________________________________________________________
+

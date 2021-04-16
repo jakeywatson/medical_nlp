@@ -1,0 +1,38 @@
+Partial Evaluation: only detection of DDI (regadless to the type)
+tp	fp	fn	total	prec	recall	F1
+147	300	337	484	0.3289	0.3037	0.3158
+
+
+Detection and Classification of DDI
+tp	fp	fn	total	prec	recall	F1
+105	342	379	484	0.2349	0.2169	0.2256
+
+
+________________________________________________________________________
+
+SCORES FOR DDI TYPE
+Scores for ddi with type mechanism
+tp	fp	fn	total	prec	recall	F1
+44	141	157	201	0.2378	0.2189	0.228
+
+
+Scores for ddi with type effect
+tp	fp	fn	total	prec	recall	F1
+30	74	132	162	0.2885	0.1852	0.2256
+
+
+Scores for ddi with type advise
+tp	fp	fn	total	prec	recall	F1
+31	77	88	119	0.287	0.2605	0.2731
+
+
+Scores for ddi with type int
+tp	fp	fn	total	prec	recall	F1
+0	50	2	2	0	0	0
+
+
+MACRO-AVERAGE MEASURES:
+	P	R	F1
+	0.2033	0.1661	0.1829
+________________________________________________________________________
+
